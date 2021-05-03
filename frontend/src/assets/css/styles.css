@@ -21,7 +21,7 @@ html, body {
 
 .footer {
     flex-shrink: 0;
-    text-align: center;
+    text-align: end;
 }
 
 .bg-primary {
@@ -30,4 +30,5 @@ html, body {
 
 .text-primary {
     color: var(--color-primary) !important;
+
 }
