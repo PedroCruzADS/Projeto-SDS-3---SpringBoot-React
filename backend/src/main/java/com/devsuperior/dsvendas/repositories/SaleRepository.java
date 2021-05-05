@@ -19,4 +19,6 @@ public interface SaleRepository extends JpaRepository<Sale, Long>{
 			+ "FROM Sale AS obj GROUP BY obj.seller")
 	List<SaleSuccessDTO> successGroupedBySeller();
 
+//=D
+	
 }
